@@ -20,4 +20,8 @@ cars.forEach((item, index, Array) => {console.log(item, index);});
 // Altera a lista para string
 document.getElementById("demo").innerHTML = cars.toString();
 
-//
+// remove o último item da lista
+let last1 = cars.pop();
+document.getElementById("demo").innerHTML = last1;
+let last2 = cars[cars.length -1];
+console.log(last2);
