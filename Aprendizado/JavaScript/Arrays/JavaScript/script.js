@@ -25,3 +25,8 @@ let last1 = cars.pop();
 document.getElementById("demo").innerHTML = last1;
 let last2 = cars[cars.length -1];
 console.log(last2);
+
+// Adciona um item ao fim da lista
+let add = cars.push("ford");
+document.getElementById("demo").innerHTML = last2;
+cars.forEach((item, index, Array) => {console.log(item, index);});
